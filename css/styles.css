@@ -1,0 +1,66 @@
+html {
+    background-color: #1d68ac;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.section {
+    display: block;
+    width: 100%;
+
+    color: #fff;
+    font-size: 3em;
+}
+
+    .section__content {
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1500px;
+        padding: 5rem 2rem;
+        width: 100%;
+
+        text-align: center;
+    }
+
+.section--dark {
+    background-color: #095498;
+}
+
+.section--light {
+    background-color: #1d68ac;
+}
+
+.logo {
+    display: inline-block;
+    height: 194px;
+    width: 500px;
+}
+
+.divider {
+    background-image: url("../images/divider.svg");
+    background-repeat: repeat-x;
+    background-size: 1126px 67px;
+    height: 67px;
+    margin-top: -80px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin: 0;
+    opacity: .8;
+    width: 100%;
+}
+
+canvas {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
